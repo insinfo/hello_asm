@@ -3,7 +3,7 @@ estudo de assembly <br>
 apenas um hello world em assembly 32 bits i386 no Linux Ubuntu 20 com gcc e nasm  <br>
 
 #### para montar 
-```shell
+```console
 apt install gcc  
 printf SYS_read | gcc -include sys/syscall.h -E -  
 apt install nasm
