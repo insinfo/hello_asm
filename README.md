@@ -4,6 +4,9 @@ apenas um hello world em assembly 32 bits i386 no Linux Ubuntu 20 com gcc e nasm
 
 #### para montar 
 ```bash
+apt install gcc  
+printf SYS_read | gcc -include sys/syscall.h -E -  
+apt install nasm
 nasm -f elf32 -o hello_world.o hello_world.asm  
 ```
 
