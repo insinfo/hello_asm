@@ -1,6 +1,6 @@
 # hello_asm
-estudo de assembly 
-apenas um hello world em assembly 32 bits i386 no Linux Ubuntu 20 com gcc e nasm
+estudo de assembly \r\n
+apenas um hello world em assembly 32 bits i386 no Linux Ubuntu 20 com gcc e nasm /r/n
 
 #### para montar 
 ```bash
